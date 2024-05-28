@@ -65,7 +65,7 @@ const Navbar = () => {
             {""}
           </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-lg font-bold">
             {NavLinks}
           </ul>
@@ -76,7 +76,7 @@ const Navbar = () => {
                 user?
                 <button onClick={handleLogout} className="btn">Logout</button>:
                 <Link to="/login" className="btn">
-                Login
+                Log
               </Link>
                 
             }
